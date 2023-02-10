@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'Neue Haas Black';
+    src: url('./NHaasGroteskDSPro-95Blk.woff') format('woff'),
+    url('./NHaasGroteskDSPro-95Blk.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Neue Haas Regular';
+    src: url('./NHaasGroteskDSPro-55Rg.woff') format('woff'),
+    url('./NHaasGroteskDSPro-55Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title-large{
+    font-family: 'Neue Haas Black';
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 0;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.row-2 {
+    flex-grow: 1;
+    background: darkgrey;
+    position: relative;
+}
+.row-2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+font-family: 'Neue Haas Regular';
+justify-content: space-between;
+align-items: flex-end;
+}
+.footer-title {
+    text-align: center;
+}
+.footer-detail {
+     
+}
+
+body {font-family: 'Neue Haas Regular ';
+    font-size: 16px;
+}
+
+.footer-spacer {
+    background-color: black;
+    height: 1px;
+    flex-grow: 1;
+}
+.footer-body {
+    width: 50%;
+}
